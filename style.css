@@ -1,0 +1,77 @@
+body {
+  font-family:"Press Start 2P";
+  background-color: rgb(240, 240, 240);
+  color: black;
+  padding: 250px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+
+
+h1,h2,h3 {
+  font-family: "Press Start 2P";
+  color: 393E46;
+  margin:auto;
+  text-align:center;
+  padding: 15px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding:0;
+}
+
+#Pokemon{
+  color:blue
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight : bold;
+  transition: 0.5s ease;
+  text-align: center;
+}
+
+#profile-pic{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+}
+
+#play-button {
+  background-color: #e76e55;
+  color: white;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-image-outset: 2;
+  border-image-repeat: space;
+  border-image-slice: 2;
+  font-family: "Press Start 2P";
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 24px;
+  padding: 10px;
+}
+
+  @media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .container {
+      width: 500px;
+    }
+  }
